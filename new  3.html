@@ -1,0 +1,127 @@
+<HTML>
+<HEAD>
+<link rel="stylesheet" type="text/css" href="index.css">
+<TITLE>Welcome to The Digger's Guild!</TITLE>
+
+<BODY BACKGROUND="wallpaper2.jpg">
+<BR>
+
+
+
+<script language="JavaScript">
+<!--
+// ==============================================
+// Copyright 2003 by jsCode.com
+// Source: jsCode.com
+// Author: etLux
+// Free for all; but please leave in the header.
+// ==============================================
+
+// Set up the image files to be used.
+var theImages = new Array() // do not change this
+// To add more image files, continue with the
+// pattern below, adding to the array. Rememeber
+// to increment the theImages[x] index!
+
+theImages[0] = 'Lock-on.PNG'
+theImages[1] = 'Trapped%20Chest.PNG'
+
+// ======================================
+// do not change anything below this line
+// ======================================
+
+var j = 0
+var p = theImages.length;
+
+var preBuffer = new Array()
+for (i = 0; i < p; i++){
+   preBuffer[i] = new Image()
+   preBuffer[i].src = theImages[i]
+}
+
+var whichImage = Math.round(Math.random()*(p-1));
+function showImage(){
+document.write('<img align="center" src="'+theImages[whichImage]+'">');
+}
+
+//-->
+</script>
+
+
+
+
+</HEAD>
+
+<BR>
+<table width="800px" border="0" align="center">
+  <tr>
+    <td align="center" colspan="2">
+      <A NAME="top"><IMG src="Logo.PNG"></A>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:100px;text-align:top;">
+           <table border="0"><tr><td align="left">
+			<a href="index.html" onmouseover="document.images['s1a'].src='home2.png';" onmouseout="document.images['s1a'].src='home.png';"><img src="home.png" name="s1a" alt="" width="123" border="0" height="47"></a><br/>
+			<a href="guides.htm" onmouseover="document.images['s1c'].src='guides2.png';" onmouseout="document.images['s1c'].src='guides.png';"><img src="guides.png" name="s1c" alt="" width="123" border="0" height="33"></a><br/>
+			<a href="reviews.htm" onmouseover="document.images['s1e'].src='reviews2.png';" onmouseout="document.images['s1e'].src='reviews.png';"><img src="reviews.png" name="s1e" alt="" width="123" border="0" height="32"></a>
+	</td>
+</table>
+    </td>
+    <td align="center" style="height:200px;width:800px;text-align:top;">
+      Main body
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      Footer
+    </td>
+  </tr>
+</table>
+<A HREF="new_3.html#top">Return To Top</A>
+<CENTER>
+<script language="JavaScript">
+<!--
+// ==============================================
+// Copyright 2003 by jsCode.com
+// Source: jsCode.com
+// Author: etLux
+// Free for all; but please leave in the header.
+// ==============================================
+showImage();
+//-->
+</script>
+<script language="Javascript">
+<!--
+// please keep these lines on when you copy the source
+// made by: Nicolas - http://www.javascript-page.com
+
+var currentdate = 0
+var core = 0
+
+function StringArray (n) {
+  this.length = n;
+  for (var i =1; i <= n; i++) {
+    this[i] = ' '
+
+  }
+}
+
+image = new StringArray(10)
+image[0] = 'Lock-on.PNG'
+image[1] = 'Trapped Chest.PNG'
+
+var ran = 60/image.length
+
+function ranimage() {
+  currentdate = new Date()
+  core = currentdate.getSeconds()
+  core = Math.floor(core/ran)
+    return(image[core])
+}
+
+document.write("<img align="center" src='" +ranimage()+ "'>")
+
+//-->
+</script></CENTER>
+</Body>
