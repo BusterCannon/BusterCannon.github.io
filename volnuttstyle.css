@@ -1,0 +1,167 @@
+/*CSS*/
+
+div.leftbox {width: 30%; float: left;}
+
+h1 { font-family:"Verdana",Georgia,Sans-Serif; }
+h2 { font-family:"Verdana",Georgia,Sans-Serif; color: white;}
+
+table.news p {color: white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+table.hints p {color: white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+
+/*p { color: white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}*/
+li { color: white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+a { font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+
+
+a:link {color:#00CED1}      /* unvisited link */
+a:visited {color:#00FF00}  /* visited link */
+a:hover {color:#00CCCC}  /* mouse over link */
+a:active {color:#0000FF}  /* selected link */
+
+
+
+
+.banner { padding: 0px; width:100%; height:1px; color:#111111; background-image:url('banner1.png'); border:0px; border-collapse: collapse; border:0px;
+border-spacing:0px; padding: 0;}
+.banner2 {vertical-align:middle; background-image:url('banner2.png')}
+.menu {width:100%;}
+.tabletop {background-image: url(Borders/tabletop.png); vertical-align:middle; height:100%; width:100%; background-repeat:repeat-x;}
+.intro {height:200px;width:800px;vertical-align:middle;padding-left:20px;padding-right:20px;padding-top:10px;padding-bottom:10px; text-align:center }
+.introguide {height:75px;width:800px;vertical-align:middle;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px; text-align:center }
+.news {border-collapse: collapse; padding: 0px; width: 100%; background: #304a59; border:0px; text-align:center}
+.news2 {border-collapse: collapse; padding: 0px; width: 100%; background: #304a59; border:0px; /*text-align:center*/}
+.bartitle {color:white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif; height:20px; text-align:left; padding:0px}
+.weaponenergy {vertical-align:top; border:0px; width:20%}
+.zxmodel {width:390px; border:3px gray outset;}
+.roll {width:80%;}
+
+.random {background-image: url(hints/blank.png); background-repeat:no-repeat; vertical-align:middle; text-align:center; width:540px; height:84px;}
+
+.weapon1 {border: 2px gray outset;}
+.weapon2 {border: 4px gray outset;}
+.reviewpic {border: 4px gray outset;}
+
+.buttons {vertical-align:top; width: 20%;}
+.icon{width:16px; height:16px; vertical-align:top}
+.thumbnails {text-align:center}
+
+.paragraph{text-align:left; padding:5px; /*text-indent:50px;*/}
+.review {text-align:left; padding:5px; /*text-indent:40px;*/}
+
+table { border-spacing:0px; font-size:14px; }
+caption {caption-side:top; text-align: center; letter-spacing:5px; padding: 0px 0px 0px 0px;}
+/*table.news td { border-width: 0px; border-color: blue; border-style: solid; vertical-align: middle; }*/
+/*table.news2 td { border-width: 0px; border-color: blue; border-style: solid; vertical-align: middle;}*/
+#tr {height: 19%;}
+col.weekends {background-color: rgb(255, 232, 232);}
+th { background-color: #036b52; color: white; letter-spacing:0px; font-size:13px;}
+#tr {height: 5%;}
+
+table.zx  { color: white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif; width:400px;;}
+table.zx td {border: 1px gray inset;}
+table.zx th {text-align: left;}
+
+table.x8  { color: white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+table.x8 td {border: 1px gray inset;}
+
+dl {margin:0px; padding:0px;}
+dd {margin:0px; padding:0px;}
+dt {margin:0px; padding:0px;}
+
+h3 {font-size: 8px; margin:0px; padding:0px;}
+
+
+
+body {margin-left:auto; margin-right:auto; vertical-align:text-top; margin-top:0px; font-family: Verdana, Geneva, sans-serif; background-image: url("wallpaper2.jpg")}
+
+/*Border CSS*/
+
+#heading     {position: absolute; top: 0px; left: 15px; width: 920px; 
+              border-bottom: 1px solid red; }
+#leftColumn  {position: absolute; top: 170px; left: 15px; width: 280px}
+#rightColumn {position: absolute; top: 170px; left: 320px; width: 600px}
+
+
+
+#heading ul            {list-style-type: none; padding: 0px; margin: 0px; 
+                        height: 20px}
+#heading ul li         {float: left; margin: 0px 3px; width: 100px; height: 20px; 
+                        text-align: center; background: url(tab.jpg) no-repeat 100% 0%;}
+#heading ul li a       {display: block; width: 100px; font-size: 10px; 
+                        text-decoration: none; color: black}
+#heading ul li a:hover {color: red}
+
+ 
+
+#leftColumn h2   {font-size: 24px; color: green; margin: 0px 0px 10px 0px}
+#leftColumn p    {font-size: 10px; padding: 0px; margin: 0px 0px 10px 0px}
+#leftColumn p i  {color: red; font-style: normal}
+
+#tBorder {background: url(Borders/top.jpg) repeat-x top}
+#lBorder {background: url(Borders/left.jpg) repeat-y left}
+#rBorder {background: url(Borders/right.jpg) repeat-y right}
+#bBorder {background: url(Borders/bottom.jpg) repeat-x bottom}
+
+#tlCorner {background: url(Borders/topleft.png) no-repeat top left}
+#trCorner {background: url(Borders/topright.jpg) no-repeat top right}
+#blCorner {background: url(Borders/bottomleft.jpg) no-repeat bottom left}
+#brCorner {background: url(Borders/bottomright.jpg) no-repeat bottom right}
+
+#boxContent {padding-top:4px; padding-bottom:5px; padding-right:5px; padding-left:5px;}
+
+#tBorder2 {background: url(Borders/top.jpg) repeat-x top}
+#lBorder2 {background: url(Borders/left.jpg) repeat-y left}
+#rBorder2 {background: url(Borders/right.jpg) repeat-y right}
+#bBorder2 {background: url(Borders/bottom.jpg) repeat-x bottom}
+
+#tlCorner2 {background: url(Borders/topleft.png) no-repeat top left}
+#trCorner2 {background: url(Borders/topright.jpg) no-repeat top right}
+#blCorner2 {background: url(Borders/bottomleft.jpg) no-repeat bottom left}
+#brCorner2 {background: url(Borders/bottomright.jpg) no-repeat bottom right}
+
+#boxContent2 {padding-top:4px; padding-bottom:5px; padding-right:5px; padding-left:5px;}
+
+/*End Border CSS*/
+
+/* Comment Widget Customization */
+#dsq-combo-widget.blue #dsq-combo-tabs li.dsq-active {
+	background: #ffb515;
+	text-decoration: none;
+	/*
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-box-shadow: 0 1px 2px #ccc;
+	-webkit-box-shadow: 0 1px 2px #ccc;
+	*/
+}
+#dsq-combo-widget.blue #dsq-combo-content .dsq-combo-box {
+	background: #f7f7f7; font-size: 0.90em;
+	/*
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-box-shadow: 0 1px 2px #ccc;
+	-webkit-box-shadow: 0 1px 2px #ccc;
+	*/
+}
+
+
+.dsq-combo-box A:link {color:blue}
+.dsq-combo-box A:visited {color:#036b52}
+.dsq-combo-box A:active {}
+.dsq-combo-box A:hover {color:#036b52}
+
+#dsq-combo-widget.blue #dsq-combo-tabs li {
+	background: #ccc;
+	text-decoration: none;
+	/*
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-box-shadow: 0 1px 2px #ccc;
+	-webkit-box-shadow: 0 1px 2px #ccc;
+	*/
+}
+
+#dsq-combo-widget.blue #dsq-combo-content .dsq-combo-box li {
+	border-bottom: 1px dotted #ccc;
+	color:black;	
+}
