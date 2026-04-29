@@ -1,0 +1,27 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 5
+   Case Problem 2
+
+   CCC Calendar Table style sheet
+   Author: Stephen Thompson
+   Date:   7/31/10
+
+   Filename:         calendar.css
+   Supporting Files: 
+
+*/
+
+table { border-spacing:5px; font-size:8px;}
+caption {caption-side:top; text-align: left; font-size:16px; letter-spacing:0px;}
+table.calendar td {width: 14%; border-width: 0px; border-color: gray; border-style: solid; vertical-align:text-top;}
+#tr {height: 19%;}
+col.weekends {background-color: rgb(255, 232, 232);}
+th { background-color: Green; color: white; letter-spacing:5px;}
+#tr {height: 5%;}
+
+dl {margin:0px; padding:0px;}
+dd {margin:0px; padding:0px;}
+dt {margin:0px; padding:0px;}
+
+h3 {font-size: 8px; margin:0px; padding:0px;}
