@@ -1,0 +1,77 @@
+div.leftbox {width: 30%; float: left;}
+
+h1 { font-family:"Verdana",Georgia,Sans-Serif; }
+h2 { font-family:"Verdana",Georgia,Sans-Serif; color: white;}
+
+p { color: white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+li { color: white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+a { font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+
+
+a:link {color:#00CED1}      /* unvisited link */
+a:visited {color:#00FF00}  /* visited link */
+a:hover {color:#00CCCC}  /* mouse over link */
+a:active {color:#0000FF}  /* selected link */
+
+table { border-spacing:0px; font-size:14px; }
+caption {caption-side:top; text-align: center; letter-spacing:5px; padding: 0px 0px 0px 0px;}
+table.news td { border-width: 0px; border-color: blue; border-style: solid; vertical-align: middle;}
+#tr {height: 19%;}
+table.news2 td { border-width: 0px; border-color: blue; border-style: solid; vertical-align: middle;}
+#tr {height: 19%;}
+col.weekends {background-color: rgb(255, 232, 232);}
+th { background-color: #036b52; color: white; letter-spacing:0px; font-size:13px;}
+#tr {height: 5%;}
+
+table.zx  { color: white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+table.zx td {border: 1px gray inset;}
+table.zx th {text-align: left;}
+
+table.x8  { color: white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+table.x8 td {border: 1px gray inset;}
+
+dl {margin:0px; padding:0px;}
+dd {margin:0px; padding:0px;}
+dt {margin:0px; padding:0px;}
+
+h3 {font-size: 8px; margin:0px; padding:0px;}
+
+.bartitle {color:white; font-size: 12px; font-family:"Verdana",Georgia,Sans-Serif;}
+
+#HCB_comment_box {color:black;}
+
+/* Grey */
+#dsq-combo-widget.blue #dsq-combo-tabs li.dsq-active {
+	background: #ffb515;
+	text-decoration: none;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-box-shadow: 0 1px 2px #ccc;
+	-webkit-box-shadow: 0 1px 2px #ccc;
+}
+#dsq-combo-widget. #dsq-combo-content .dsq-combo-box {
+	background: #f7f7f7; font-size: 0.90em;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-box-shadow: 0 1px 2px #ccc;
+	-webkit-box-shadow: 0 1px 2px #ccc;	
+}
+
+
+.dsq-combo-box A:link {color:blue}
+.dsq-combo-box A:visited {color:#036b52}
+.dsq-combo-box A:active {}
+.dsq-combo-box A:hover {color:#036b52}
+
+#dsq-combo-widget.blue #dsq-combo-tabs li {
+	background: #ccc;
+	text-decoration: none;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-box-shadow: 0 1px 2px #ccc;
+	-webkit-box-shadow: 0 1px 2px #ccc;
+}
+#dsq-combo-widget.blue #dsq-combo-content .dsq-combo-box li {
+	border-bottom: 1px dotted #ccc;
+	color:black;	
+}
